@@ -9,6 +9,8 @@
 
 Model weights (`*.pth`) are stored with **Git LFS**: run `git lfs install` before cloning.
 
+**Ready-to-use models on Kaggle:** [dkanishvarshan/hybridlungnet-lung-nodule-models](https://www.kaggle.com/datasets/dkanishvarshan/hybridlungnet-lung-nodule-models). It has both models plus `run_pipeline.py`, so you can analyse a CT with one command.
+
 Snapshot of the HybridLungNet v2 system. It holds the models in use, the higher-scoring candidate models, every measured result, the full source code, and the manuals. Built November 2026.
 
 **What the system does:** you give it a chest CT (DICOM) and nothing else. It finds lung nodules and, for each one, gives:
