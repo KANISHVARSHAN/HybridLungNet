@@ -1,0 +1,24 @@
+{
+ "detector": "detector.pth",
+ "classifier": "classifier_hybridlungnet_original_fold2.pth",
+ "classifier_name": "HybridLungNet (original, fold 2)",
+ "aux_mean": [
+  37863.48936170213,
+  90670.5728314239,
+  0.5731041793339968,
+  0.41538582759724524,
+  0.6557811479375327
+ ],
+ "aux_std": [
+  20406.2294309811,
+  28385.72404507112,
+  0.22357313154047442,
+  0.19197159266857722,
+  0.08857753509032687
+ ],
+ "thresholds": {
+  "confident": 0.45035937428474426,
+  "possible": 0.2404177486896515
+ },
+ "mc_passes": 20
+}

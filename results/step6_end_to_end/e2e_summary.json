@@ -1,0 +1,61 @@
+{
+ "n_test_patients": 122,
+ "n_errors": 0,
+ "thresholds": {
+  "confident": 0.45035937428474426,
+  "possible": 0.2404177486896515
+ },
+ "confident(<=1FP/scan on val)": {
+  "found": 136,
+  "total_gt": 149,
+  "sens": 0.912751677852349,
+  "fp_total": 136,
+  "fp_per_scan": 1.1147540983606556,
+  "n_scans": 122
+ },
+ "possible(<=4FP/scan on val)": {
+  "found": 143,
+  "total_gt": 149,
+  "sens": 0.959731543624161,
+  "fp_total": 386,
+  "fp_per_scan": 3.1639344262295084,
+  "n_scans": 122
+ },
+ "froc_from_raw_dicom": {
+  "sens": {
+   "0.125": 0.38926174496644295,
+   "0.25": 0.6711409395973155,
+   "0.5": 0.8389261744966443,
+   "1": 0.8993288590604027,
+   "2": 0.9463087248322147,
+   "4": 0.959731543624161,
+   "8": 0.959731543624161
+  },
+  "thr": {
+   "0.125": 0.8475,
+   "0.25": 0.7432,
+   "0.5": 0.6252,
+   "1": 0.4776,
+   "2": 0.3238,
+   "4": 0.2404,
+   "8": 0.2404
+  },
+  "cpm": 0.8092042186001918,
+  "total_gt": 149,
+  "n_scans": 122,
+  "max_sens": 0.959731543624161
+ },
+ "tp_malignancy_auc_original": 0.9799107142857142,
+ "n_tp_clear": 134,
+ "n_tp_clear_malignant": 64,
+ "FP_candidates_pred_malignant_frac_original": 0.19430051813471502,
+ "FP_candidates_mean_p_original": 0.3928458549222798,
+ "patient_level_n": 91,
+ "patient_level_n_malignant": 48,
+ "patient_auc_pipeline_original": 0.8047480620155039,
+ "patient_auc_with_xml_locations_original": 0.9985465116279071,
+ "patient_sens_at_0.5_original": 0.875,
+ "patient_spec_at_0.5_original": 0.627906976744186,
+ "n_missed_gt3_at_possible": 6,
+ "mean_seconds_total_per_scan": 24.56434426229508
+}

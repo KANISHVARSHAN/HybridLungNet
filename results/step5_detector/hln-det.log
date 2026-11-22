@@ -1,0 +1,98 @@
+[{"stream_name":"stdout","time":15.913815569,"data":"{'test': 122, 'test_from_fold2': 47, 'test_from_unused': 75, 'det_val': 71, 'det_train': 405}\n"}
+,{"stream_name":"stdout","time":15.917856405,"data":"scans train/val/test 410 71 125\n"}
+,{"stream_name":"stdout","time":299.015173487,"data":"unpacked 284.31899857521057\n"}
+,{"stream_name":"stdout","time":300.465619747,"data":"detector params 4937845\n"}
+,{"stream_name":"stdout","time":306.191785819,"data":"positive nodules for training 719\n"}
+,{"stream_name":"stderr","time":316.193682995,"data":"/kaggle/src/script.py:825: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate\n"}
+,{"stream_name":"stderr","time":316.193740028,"data":"  scaler.step(opt); scaler.update(); sched.step()\n"}
+,{"stream_name":"stderr","time":316.19401536,"data":"/kaggle/src/script.py:827: UserWarning: Converting a tensor with requires_grad=True to a scalar may lead to unexpected behavior.\n"}
+,{"stream_name":"stderr","time":316.194028594,"data":"Consider using tensor.detach() first. (Triggered internally at /pytorch/torch/csrc/autograd/generated/python_variable_methods.cpp:836.)\n"}
+,{"stream_name":"stderr","time":316.194034186,"data":"  print(f\"it {it} loss {loss.item():.3f} heat {loss_h.item():.3f} reg {float(loss_r):.3f} {time.time()-t:.0f}s\", flush=True)\n"}
+,{"stream_name":"stdout","time":316.194015531,"data":"it 0 loss 12.197 heat 10.550 reg 3.294 10s\n"}
+,{"stream_name":"stdout","time":379.349663235,"data":"it 200 loss 1.875 heat 1.631 reg 0.490 73s\n"}
+,{"stream_name":"stdout","time":444.400660028,"data":"it 400 loss 2.037 heat 1.779 reg 0.515 138s\n"}
+,{"stream_name":"stdout","time":510.887314921,"data":"it 600 loss 0.745 heat 0.561 reg 0.369 205s\n"}
+,{"stream_name":"stdout","time":578.454846155,"data":"it 800 loss 1.381 heat 1.156 reg 0.450 272s\n"}
+,{"stream_name":"stdout","time":646.379681534,"data":"it 1000 loss 1.417 heat 1.271 reg 0.293 340s\n"}
+,{"stream_name":"stdout","time":716.828850972,"data":"it 1200 loss 1.287 heat 1.175 reg 0.223 411s\n"}
+,{"stream_name":"stdout","time":787.959270085,"data":"it 1400 loss 0.362 heat 0.201 reg 0.322 482s\n"}
+,{"stream_name":"stdout","time":858.995291014,"data":"it 1600 loss 0.402 heat 0.255 reg 0.295 553s\n"}
+,{"stream_name":"stdout","time":930.109280218,"data":"it 1800 loss 0.490 heat 0.366 reg 0.248 624s\n"}
+,{"stream_name":"stdout","time":1099.624520103,"data":"VAL {'it': 2000, 'cpm': 0.7142857142857143, 's@0.125': 0.4639175257731959, 's@0.25': 0.5979381443298969, 's@0.5': 0.6597938144329897, 's@1': 0.7216494845360825, 's@2': 0.7835051546391752, 's@4': 0.8556701030927835, 's@8': 0.9175257731958762}\n"}
+,{"stream_name":"stdout","time":1100.036952833,"data":"it 2000 loss 0.344 heat 0.255 reg 0.178 794s\n"}
+,{"stream_name":"stdout","time":1170.0270832,"data":"it 2200 loss 0.838 heat 0.663 reg 0.350 864s\n"}
+,{"stream_name":"stdout","time":1238.598576366,"data":"it 2400 loss 0.586 heat 0.469 reg 0.234 932s\n"}
+,{"stream_name":"stdout","time":1307.151899592,"data":"it 2600 loss 0.541 heat 0.448 reg 0.186 1001s\n"}
+,{"stream_name":"stdout","time":1375.293634579,"data":"it 2800 loss 0.388 heat 0.263 reg 0.249 1069s\n"}
+,{"stream_name":"stdout","time":1443.652833312,"data":"it 3000 loss 0.689 heat 0.511 reg 0.355 1137s\n"}
+,{"stream_name":"stdout","time":1511.732024238,"data":"it 3200 loss 0.325 heat 0.214 reg 0.223 1206s\n"}
+,{"stream_name":"stdout","time":1579.949977658,"data":"it 3400 loss 0.360 heat 0.266 reg 0.188 1274s\n"}
+,{"stream_name":"stdout","time":1647.907029358,"data":"it 3600 loss 0.249 heat 0.136 reg 0.224 1342s\n"}
+,{"stream_name":"stdout","time":1716.040344885,"data":"it 3800 loss 1.159 heat 1.051 reg 0.216 1410s\n"}
+,{"stream_name":"stdout","time":1887.645104754,"data":"VAL {'it': 4000, 'cpm': 0.7304860088365244, 's@0.125': 0.41237113402061853, 's@0.25': 0.5360824742268041, 's@0.5': 0.6597938144329897, 's@1': 0.7422680412371134, 's@2': 0.865979381443299, 's@4': 0.9278350515463918, 's@8': 0.9690721649484536}\n"}
+,{"stream_name":"stdout","time":1888.018988233,"data":"it 4000 loss 0.479 heat 0.402 reg 0.155 1582s\n"}
+,{"stream_name":"stdout","time":1954.943022734,"data":"it 4200 loss 1.779 heat 1.647 reg 0.263 1649s\n"}
+,{"stream_name":"stdout","time":2022.282116823,"data":"it 4400 loss 0.224 heat 0.120 reg 0.208 1716s\n"}
+,{"stream_name":"stdout","time":2089.701914418,"data":"it 4600 loss 0.667 heat 0.521 reg 0.293 1784s\n"}
+,{"stream_name":"stdout","time":2157.547037781,"data":"it 4800 loss 0.796 heat 0.691 reg 0.211 1851s\n"}
+,{"stream_name":"stdout","time":2225.418558357,"data":"it 5000 loss 0.266 heat 0.186 reg 0.161 1919s\n"}
+,{"stream_name":"stdout","time":2293.199073026,"data":"it 5200 loss 0.791 heat 0.637 reg 0.309 1987s\n"}
+,{"stream_name":"stdout","time":2361.247281547,"data":"it 5400 loss 0.545 heat 0.413 reg 0.265 2055s\n"}
+,{"stream_name":"stdout","time":2429.255818857,"data":"it 5600 loss 0.398 heat 0.268 reg 0.260 2123s\n"}
+,{"stream_name":"stdout","time":2497.36324072,"data":"it 5800 loss 0.207 heat 0.113 reg 0.188 2191s\n"}
+,{"stream_name":"stdout","time":2661.381181075,"data":"VAL {'it': 6000, 'cpm': 0.8247422680412371, 's@0.125': 0.5876288659793815, 's@0.25': 0.6701030927835051, 's@0.5': 0.7835051546391752, 's@1': 0.8762886597938144, 's@2': 0.9278350515463918, 's@4': 0.9484536082474226, 's@8': 0.979381443298969}\n"}
+,{"stream_name":"stdout","time":2661.746525256,"data":"it 6000 loss 0.668 heat 0.564 reg 0.208 2356s\n"}
+,{"stream_name":"stdout","time":2728.938286405,"data":"it 6200 loss 0.208 heat 0.116 reg 0.186 2423s\n"}
+,{"stream_name":"stdout","time":2796.613980615,"data":"it 6400 loss 1.232 heat 1.056 reg 0.351 2490s\n"}
+,{"stream_name":"stdout","time":2864.381944537,"data":"it 6600 loss 0.659 heat 0.560 reg 0.198 2558s\n"}
+,{"stream_name":"stdout","time":2932.225660755,"data":"it 6800 loss 0.385 heat 0.289 reg 0.192 2626s\n"}
+,{"stream_name":"stdout","time":3000.205935825,"data":"it 7000 loss 0.409 heat 0.322 reg 0.174 2694s\n"}
+,{"stream_name":"stdout","time":3068.224402237,"data":"it 7200 loss 0.282 heat 0.144 reg 0.277 2762s\n"}
+,{"stream_name":"stdout","time":3136.317789226,"data":"it 7400 loss 0.186 heat 0.061 reg 0.251 2830s\n"}
+,{"stream_name":"stdout","time":3204.445231367,"data":"it 7600 loss 0.377 heat 0.288 reg 0.177 2898s\n"}
+,{"stream_name":"stdout","time":3272.362715222,"data":"it 7800 loss 0.505 heat 0.390 reg 0.230 2966s\n"}
+,{"stream_name":"stdout","time":3435.964293827,"data":"VAL {'it': 8000, 'cpm': 0.792341678939617, 's@0.125': 0.4845360824742268, 's@0.25': 0.5670103092783505, 's@0.5': 0.7319587628865979, 's@1': 0.8969072164948454, 's@2': 0.9175257731958762, 's@4': 0.9587628865979382, 's@8': 0.9896907216494846}\n"}
+,{"stream_name":"stdout","time":3436.292369588,"data":"it 8000 loss 0.870 heat 0.772 reg 0.196 3130s\n"}
+,{"stream_name":"stdout","time":3503.473815322,"data":"it 8200 loss 1.049 heat 0.907 reg 0.284 3197s\n"}
+,{"stream_name":"stdout","time":3571.265357752,"data":"it 8400 loss 0.221 heat 0.125 reg 0.193 3265s\n"}
+,{"stream_name":"stdout","time":3639.265003294,"data":"it 8600 loss 0.308 heat 0.191 reg 0.235 3333s\n"}
+,{"stream_name":"stdout","time":3707.266763276,"data":"it 8800 loss 0.577 heat 0.475 reg 0.204 3401s\n"}
+,{"stream_name":"stdout","time":3775.405053054,"data":"it 9000 loss 0.210 heat 0.121 reg 0.177 3469s\n"}
+,{"stream_name":"stdout","time":3843.666357523,"data":"it 9200 loss 0.446 heat 0.339 reg 0.214 3537s\n"}
+,{"stream_name":"stdout","time":3911.895676496,"data":"it 9400 loss 0.226 heat 0.094 reg 0.264 3606s\n"}
+,{"stream_name":"stdout","time":3980.035492838,"data":"it 9600 loss 0.410 heat 0.339 reg 0.141 3674s\n"}
+,{"stream_name":"stdout","time":4048.025994057,"data":"it 9800 loss 0.356 heat 0.235 reg 0.243 3742s\n"}
+,{"stream_name":"stdout","time":4213.013958978,"data":"VAL {'it': 10000, 'cpm': 0.8217967599410898, 's@0.125': 0.5567010309278351, 's@0.25': 0.6597938144329897, 's@0.5': 0.8041237113402062, 's@1': 0.865979381443299, 's@2': 0.9381443298969072, 's@4': 0.9484536082474226, 's@8': 0.979381443298969}\n"}
+,{"stream_name":"stdout","time":4213.347626238,"data":"it 10000 loss 0.852 heat 0.782 reg 0.140 3907s\n"}
+,{"stream_name":"stdout","time":4280.681063873,"data":"it 10200 loss 0.450 heat 0.377 reg 0.146 3974s\n"}
+,{"stream_name":"stdout","time":4348.516398677,"data":"it 10400 loss 0.335 heat 0.232 reg 0.207 4042s\n"}
+,{"stream_name":"stdout","time":4419.796509713,"data":"it 10600 loss 0.352 heat 0.267 reg 0.170 4114s\n"}
+,{"stream_name":"stdout","time":4490.909523757,"data":"it 10800 loss 0.459 heat 0.377 reg 0.164 4185s\n"}
+,{"stream_name":"stdout","time":4561.651735654,"data":"it 11000 loss 0.241 heat 0.138 reg 0.206 4255s\n"}
+,{"stream_name":"stdout","time":4632.313532464,"data":"it 11200 loss 0.239 heat 0.138 reg 0.201 4326s\n"}
+,{"stream_name":"stdout","time":4703.058869672,"data":"it 11400 loss 0.580 heat 0.468 reg 0.225 4397s\n"}
+,{"stream_name":"stdout","time":4773.585604725,"data":"it 11600 loss 0.280 heat 0.137 reg 0.285 4467s\n"}
+,{"stream_name":"stdout","time":4842.632309789,"data":"it 11800 loss 0.534 heat 0.446 reg 0.176 4536s\n"}
+,{"stream_name":"stdout","time":5007.395434912,"data":"VAL {'it': 12000, 'cpm': 0.8070692194403534, 's@0.125': 0.5567010309278351, 's@0.25': 0.6185567010309279, 's@0.5': 0.7525773195876289, 's@1': 0.865979381443299, 's@2': 0.9175257731958762, 's@4': 0.9587628865979382, 's@8': 0.979381443298969}\n"}
+,{"stream_name":"stdout","time":5007.720691076,"data":"it 12000 loss 0.356 heat 0.267 reg 0.178 4702s\n"}
+,{"stream_name":"stdout","time":5075.065728167,"data":"it 12200 loss 0.386 heat 0.255 reg 0.262 4769s\n"}
+,{"stream_name":"stdout","time":5142.8392936,"data":"it 12400 loss 0.580 heat 0.483 reg 0.195 4837s\n"}
+,{"stream_name":"stdout","time":5210.838589216,"data":"it 12600 loss 0.228 heat 0.157 reg 0.143 4905s\n"}
+,{"stream_name":"stdout","time":5279.003832962,"data":"it 12800 loss 0.251 heat 0.154 reg 0.193 4973s\n"}
+,{"stream_name":"stdout","time":5347.034356389,"data":"it 13000 loss 0.418 heat 0.326 reg 0.184 5041s\n"}
+,{"stream_name":"stdout","time":5415.080132803,"data":"it 13200 loss 0.146 heat 0.079 reg 0.134 5109s\n"}
+,{"stream_name":"stdout","time":5483.200008383,"data":"it 13400 loss 0.222 heat 0.117 reg 0.211 5177s\n"}
+,{"stream_name":"stdout","time":5551.479743938,"data":"it 13600 loss 0.218 heat 0.137 reg 0.163 5245s\n"}
+,{"stream_name":"stdout","time":5619.777664038,"data":"it 13800 loss 0.217 heat 0.106 reg 0.222 5314s\n"}
+,{"stream_name":"stdout","time":5782.890255114,"data":"VAL {'it': 14000, 'cpm': 0.7982326951399117, 's@0.125': 0.5154639175257731, 's@0.25': 0.6082474226804123, 's@0.5': 0.7525773195876289, 's@1': 0.865979381443299, 's@2': 0.9278350515463918, 's@4': 0.9484536082474226, 's@8': 0.9690721649484536}\n"}
+,{"stream_name":"stdout","time":5877.602234813,"data":"VAL FROC {'sens': {0.125: 0.5876288659793815, 0.25: 0.6701030927835051, 0.5: 0.7835051546391752, 1: 0.8762886597938144, 2: 0.9278350515463918, 4: 0.9484536082474226, 8: 0.979381443298969}, 'thr': {0.125: 0.6934729218482971, 0.25: 0.6460136771202087, 0.5: 0.5457699298858643, 1: 0.45035937428474426, 2: 0.35756751894950867, 4: 0.2404177486896515, 8: 0.15584777295589447}, 'cpm': 0.8247422680412371, 'total_gt': 97, 'n_scans': 71, 'max_sens': 1.0}\n"}
+,{"stream_name":"stdout","time":6157.566901706,"data":"TEST min_readers 3 {\"froc\": {\"sens\": {\"0.125\": 0.40522875816993464, \"0.25\": 0.7124183006535948, \"0.5\": 0.8431372549019608, \"1\": 0.9019607843137255, \"2\": 0.9477124183006536, \"4\": 0.9673202614379085, \"8\": 0.9673202614379085}, \"thr\": {\"0.125\": 0.8474634885787964, \"0.25\": 0.735641598701477, \"0.5\": 0.6242935061454773, \"1\": 0.4736572504043579, \"2\": 0.32295289635658264, \"4\": 0.21109138429164886, \"8\": 0.13753245770931244}, \"cpm\": 0.8207282913165266, \"total_gt\": 153, \"n_scans\": 125, \"max_sens\": 1.0}, \"cpm_ci95\": [0.7459171961467513, 0.8954583901429076], \"at_val_thresholds\": {\"0.5\": {\"found\": 136, \"total_gt\": 153, \"sens\": 0.8888888888888888, \"fp_total\": 85, \"fp_per_scan\": 0.68, \"n_scans\": 125}, \"1\": {\"found\": 140, \"total_gt\": 153, \"sens\": 0.9150326797385621, \"fp_total\": 137, \"fp_per_scan\": 1.096, \"n_scans\": 125}, \"2\": {\"found\": 144, \"total_gt\": 153, \"sens\": 0.9411764705882353, \"fp_total\": 206, \"fp_per_scan\": 1.648, \"n_scans\": 125}, \"4\": {\"found\": 147, \"total_gt\": 153, \"sens\": 0.9607843137254902, \"fp_total\": 400, \"fp_per_scan\": 3.2, \"n_scans\": 125}}}\n"}
+,{"stream_name":"stdout","time":6343.863823157,"data":"TEST min_readers 1 {\"froc\": {\"sens\": {\"0.125\": 0.2441860465116279, \"0.25\": 0.4573643410852713, \"0.5\": 0.5930232558139535, \"1\": 0.7054263565891473, \"2\": 0.7945736434108527, \"4\": 0.8527131782945736, \"8\": 0.872093023255814}, \"thr\": {\"0.125\": 0.8474634885787964, \"0.25\": 0.735641598701477, \"0.5\": 0.622459352016449, \"1\": 0.4736572504043579, \"2\": 0.32295289635658264, \"4\": 0.21109138429164886, \"8\": 0.13753245770931244}, \"cpm\": 0.64562569213732, \"total_gt\": 258, \"n_scans\": 125, \"max_sens\": 0.9767441860465116}, \"cpm_ci95\": [0.5626635519566869, 0.7344124340271599], \"at_val_thresholds\": {\"0.5\": {\"found\": 172, \"total_gt\": 258, \"sens\": 0.6666666666666666, \"fp_total\": 85, \"fp_per_scan\": 0.68, \"n_scans\": 125}, \"1\": {\"found\": 189, \"total_gt\": 258, \"sens\": 0.7325581395348837, \"fp_total\": 137, \"fp_per_scan\": 1.096, \"n_scans\": 125}, \"2\": {\"found\": 203, \"total_gt\": 258, \"sens\": 0.7868217054263565, \"fp_total\": 206, \"fp_per_scan\": 1.648, \"n_scans\": 125}, \"4\": {\"found\": 215, \"total_gt\": 258, \"sens\": 0.8333333333333334, \"fp_total\": 400, \"fp_per_scan\": 3.2, \"n_scans\": 125}}}\n"}
+,{"stream_name":"stdout","time":6343.86429523,"data":"total time 6329.168174982071\n"}
+,{"stream_name":"stderr","time":6354.419445697,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":6354.419479073,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":6354.826330254,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":6354.826354229,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":6356.116822518,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":6357.387203721,"data":"[NbConvertApp] Writing 521948 bytes to __results__.html\n"}
+]

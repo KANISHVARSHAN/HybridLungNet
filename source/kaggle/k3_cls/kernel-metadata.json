@@ -1,0 +1,2 @@
+{"id":"messi2011/hln-cls","title":"hln-cls","code_file":"cls.py","language":"python","kernel_type":"script","is_private":true,"enable_gpu":true,"enable_internet":false,
+"dataset_sources":["kanishvarshan/a-raw-data-of-ct-scan"],"competition_sources":[],"kernel_sources":["messi2011/hln-prep"]}

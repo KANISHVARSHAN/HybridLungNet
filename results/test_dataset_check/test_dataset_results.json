@@ -1,0 +1,387 @@
+{
+ "LIDC-IDRI-0001": {
+  "n_ct_slices": 133,
+  "spacing": [
+   2.5,
+   0.703,
+   0.703
+  ],
+  "seconds": 56.7,
+  "n_confident": 1,
+  "n_possible": 5,
+  "highest_malignancy_confident": 0.9048,
+  "reader_nodules": [
+   {
+    "readers": 4,
+    "ratings": [
+     5,
+     5,
+     5,
+     4
+    ],
+    "mean_rating": 4.75,
+    "readers_verdict": "MALIGNANT-looking (>=3.5)",
+    "diameter_mm": 32.8,
+    "texture": [
+     "solid pulmonary nodule",
+     "solid pulmonary nodule",
+     "solid pulmonary nodule",
+     "4 out of 5"
+    ],
+    "location_1mm": [
+     224.2,
+     258.1,
+     222.4
+    ],
+    "system": {
+     "dist_mm": 1.5,
+     "level": "confident",
+     "detection": 0.9901,
+     "malignancy": 0.9048,
+     "spread": 0.012,
+     "slice": 90
+    }
+   }
+  ],
+  "system_findings_not_matching_any_reader_nodule": [
+   {
+    "level": "possible",
+    "detection": 0.4091,
+    "malignancy": 0.2261,
+    "slice": 52
+   },
+   {
+    "level": "possible",
+    "detection": 0.308,
+    "malignancy": 0.4552,
+    "slice": 86
+   },
+   {
+    "level": "possible",
+    "detection": 0.2743,
+    "malignancy": 0.3854,
+    "slice": 90
+   },
+   {
+    "level": "possible",
+    "detection": 0.2456,
+    "malignancy": 0.2812,
+    "slice": 37
+   },
+   {
+    "level": "possible",
+    "detection": 0.2433,
+    "malignancy": 0.3586,
+    "slice": 65
+   }
+  ]
+ },
+ "LIDC-IDRI-1009": {
+  "n_ct_slices": 125,
+  "spacing": [
+   2.5,
+   0.703,
+   0.703
+  ],
+  "seconds": 62.2,
+  "n_confident": 1,
+  "n_possible": 5,
+  "highest_malignancy_confident": 0.3071,
+  "reader_nodules": [
+   {
+    "readers": 1,
+    "ratings": [
+     2
+    ],
+    "mean_rating": 2.0,
+    "readers_verdict": "BENIGN-looking (<=2.5)",
+    "diameter_mm": 37.4,
+    "texture": [
+     "solid pulmonary nodule"
+    ],
+    "location_1mm": [
+     147.7,
+     225.5,
+     220.9
+    ],
+    "system": null
+   }
+  ],
+  "system_findings_not_matching_any_reader_nodule": [
+   {
+    "level": "confident",
+    "detection": 0.8406,
+    "malignancy": 0.3071,
+    "slice": 47
+   },
+   {
+    "level": "possible",
+    "detection": 0.4202,
+    "malignancy": 0.4334,
+    "slice": 70
+   },
+   {
+    "level": "possible",
+    "detection": 0.3238,
+    "malignancy": 0.4065,
+    "slice": 89
+   },
+   {
+    "level": "possible",
+    "detection": 0.2994,
+    "malignancy": 0.4826,
+    "slice": 114
+   },
+   {
+    "level": "possible",
+    "detection": 0.2876,
+    "malignancy": 0.3729,
+    "slice": 58
+   },
+   {
+    "level": "possible",
+    "detection": 0.243,
+    "malignancy": 0.2061,
+    "slice": 59
+   }
+  ]
+ },
+ "LIDC-IDRI-1010": {
+  "n_ct_slices": 252,
+  "spacing": [
+   1.25,
+   0.781,
+   0.781
+  ],
+  "seconds": 79.5,
+  "n_confident": 1,
+  "n_possible": 9,
+  "highest_malignancy_confident": 0.369,
+  "reader_nodules": [
+   {
+    "readers": 3,
+    "ratings": [
+     2,
+     3,
+     2
+    ],
+    "mean_rating": 2.3333333333333335,
+    "readers_verdict": "BENIGN-looking (<=2.5)",
+    "diameter_mm": 8.3,
+    "texture": [
+     "solid pulmonary nodule",
+     "solid pulmonary nodule",
+     "solid pulmonary nodule"
+    ],
+    "location_1mm": [
+     158.2,
+     286.4,
+     152.4
+    ],
+    "system": {
+     "dist_mm": 0.3,
+     "level": "confident",
+     "detection": 0.6801,
+     "malignancy": 0.369,
+     "spread": 0.0092,
+     "slice": 127
+    }
+   }
+  ],
+  "system_findings_not_matching_any_reader_nodule": [
+   {
+    "level": "possible",
+    "detection": 0.4194,
+    "malignancy": 0.2851,
+    "slice": 66
+   },
+   {
+    "level": "possible",
+    "detection": 0.4137,
+    "malignancy": 0.3246,
+    "slice": 160
+   },
+   {
+    "level": "possible",
+    "detection": 0.3343,
+    "malignancy": 0.3061,
+    "slice": 86
+   },
+   {
+    "level": "possible",
+    "detection": 0.3146,
+    "malignancy": 0.29,
+    "slice": 82
+   },
+   {
+    "level": "possible",
+    "detection": 0.2867,
+    "malignancy": 0.3004,
+    "slice": 196
+   },
+   {
+    "level": "possible",
+    "detection": 0.2855,
+    "malignancy": 0.322,
+    "slice": 130
+   },
+   {
+    "level": "possible",
+    "detection": 0.2791,
+    "malignancy": 0.4049,
+    "slice": 76
+   },
+   {
+    "level": "possible",
+    "detection": 0.2656,
+    "malignancy": 0.2656,
+    "slice": 207
+   },
+   {
+    "level": "possible",
+    "detection": 0.2588,
+    "malignancy": 0.3668,
+    "slice": 136
+   }
+  ]
+ },
+ "LIDC-IDRI-1011": {
+  "n_ct_slices": 133,
+  "spacing": [
+   2.5,
+   0.859,
+   0.859
+  ],
+  "seconds": 77.1,
+  "n_confident": 4,
+  "n_possible": 1,
+  "highest_malignancy_confident": 0.8656,
+  "reader_nodules": [
+   {
+    "readers": 4,
+    "ratings": [
+     4,
+     3,
+     4,
+     3
+    ],
+    "mean_rating": 3.5,
+    "readers_verdict": "MALIGNANT-looking (>=3.5)",
+    "diameter_mm": 28.7,
+    "texture": [
+     "4 out of 5",
+     "non-solid pulmonary nodule",
+     "solid pulmonary nodule",
+     "part-solid pulmonary nodule"
+    ],
+    "location_1mm": [
+     140.9,
+     255.4,
+     349.0
+    ],
+    "system": {
+     "dist_mm": 0.6,
+     "level": "confident",
+     "detection": 0.9355,
+     "malignancy": 0.685,
+     "spread": 0.0218,
+     "slice": 56
+    }
+   },
+   {
+    "readers": 4,
+    "ratings": [
+     3,
+     5,
+     5,
+     5
+    ],
+    "mean_rating": 4.5,
+    "readers_verdict": "MALIGNANT-looking (>=3.5)",
+    "diameter_mm": 32.9,
+    "texture": [
+     "solid pulmonary nodule",
+     "solid pulmonary nodule",
+     "solid pulmonary nodule",
+     "solid pulmonary nodule"
+    ],
+    "location_1mm": [
+     181.6,
+     218.5,
+     327.5
+    ],
+    "system": {
+     "dist_mm": 1.4,
+     "level": "confident",
+     "detection": 0.9898,
+     "malignancy": 0.8656,
+     "spread": 0.0187,
+     "slice": 73
+    }
+   },
+   {
+    "readers": 4,
+    "ratings": [
+     2,
+     5,
+     5,
+     5
+    ],
+    "mean_rating": 4.25,
+    "readers_verdict": "MALIGNANT-looking (>=3.5)",
+    "diameter_mm": 22.7,
+    "texture": [
+     "solid pulmonary nodule",
+     "solid pulmonary nodule",
+     "solid pulmonary nodule",
+     "solid pulmonary nodule"
+    ],
+    "location_1mm": [
+     214.8,
+     143.3,
+     183.3
+    ],
+    "system": {
+     "dist_mm": 0.4,
+     "level": "confident",
+     "detection": 0.9324,
+     "malignancy": 0.8237,
+     "spread": 0.0217,
+     "slice": 86
+    }
+   },
+   {
+    "readers": 1,
+    "ratings": [
+     2
+    ],
+    "mean_rating": 2.0,
+    "readers_verdict": "BENIGN-looking (<=2.5)",
+    "diameter_mm": 6.5,
+    "texture": [
+     "non-solid pulmonary nodule"
+    ],
+    "location_1mm": [
+     271.5,
+     198.9,
+     175.8
+    ],
+    "system": null
+   }
+  ],
+  "system_findings_not_matching_any_reader_nodule": [
+   {
+    "level": "confident",
+    "detection": 0.5182,
+    "malignancy": 0.7074,
+    "slice": 73
+   },
+   {
+    "level": "possible",
+    "detection": 0.2409,
+    "malignancy": 0.4439,
+    "slice": 119
+   }
+  ]
+ }
+}

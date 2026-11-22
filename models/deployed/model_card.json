@@ -1,0 +1,46 @@
+{
+ "metrics": [
+  [
+   "Detector CPM, held-out test (122 scans, raw DICOM)",
+   "0.809"
+  ],
+  [
+   "Nodules found at 'confident' level",
+   "136/149 (91.3%) at 1.11 false alarms/scan"
+  ],
+  [
+   "Nodules found incl. 'possible' level",
+   "143/149 (96.0%) at 3.16 false alarms/scan"
+  ],
+  [
+   "Malignancy AUC on correctly detected nodules",
+   "0.980 (134 nodules; optimistic, see limitations)"
+  ],
+  [
+   "Patient-level malignancy AUC from raw CT",
+   "0.805 (91 patients, 48 malignant)"
+  ],
+  [
+   "Patient-level sens / spec at 0.5",
+   "87.5% / 62.8%"
+  ],
+  [
+   "False alarms rated >= 0.5 malignant",
+   "19%"
+  ],
+  [
+   "Mean time per scan (Kaggle T4 GPU)",
+   "24.6 s"
+  ]
+ ],
+ "limitations": [
+  "Research prototype. Not a medical device and not validated for clinical use.",
+  "Trained and tested only on LIDC-IDRI (patients 0001-0600); no external hospital data.",
+  "'Malignancy' means radiologists' visual suspicion score (1-5), not biopsy-proven cancer.",
+  "Ground truth = nodules >= 3 mm marked by >= 3 of 4 readers; smaller or less-agreed nodules are not scored.",
+  "The classifier never saw non-nodules: about 1 in 5 false alarms is rated >= 50% malignant.",
+  "Original classifier checkpoint was chosen on some of the test patients, so its numbers are optimistic.",
+  "Probabilities are poorly calibrated (ECE 0.24); MC-dropout spread is small and only weakly flags errors.",
+  "Malignancy accuracy falls if the nodule centre is off by several mm (AUC 0.73 at 6 mm)."
+ ]
+}

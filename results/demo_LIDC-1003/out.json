@@ -1,0 +1,584 @@
+{
+ "result": {
+  "series_uid": "1.3.6.1.4.1.14519.5.2.1.6279.6001.229096941293122177107846044795",
+  "n_slices": 186,
+  "spacing_mm": [
+   1.8,
+   0.586,
+   0.586
+  ],
+  "volume_1mm_shape": [
+   335,
+   300,
+   300
+  ],
+  "lung_crop_lo": [
+   40,
+   32,
+   0
+  ],
+  "findings": [
+   {
+    "detection_score": 0.9334,
+    "detection_level": "confident",
+    "malignancy_prob": 0.8299,
+    "malignancy_mc_std": 0.0161,
+    "est_diameter_mm": 18.6,
+    "voxel_1mm": {
+     "z": 206.5,
+     "y": 240.4,
+     "x": 86.9
+    },
+    "dicom": {
+     "z_mm": -183.52,
+     "slice_index": 115,
+     "row": 410.3,
+     "col": 148.4
+    },
+    "crop_center": {
+     "z": 166.48408889770508,
+     "y": 208.40962129831314,
+     "x": 86.94141632318497
+    }
+   },
+   {
+    "detection_score": 0.8833,
+    "detection_level": "confident",
+    "malignancy_prob": 0.5287,
+    "malignancy_mc_std": 0.0421,
+    "est_diameter_mm": 14.3,
+    "voxel_1mm": {
+     "z": 208.4,
+     "y": 199.3,
+     "x": 65.1
+    },
+    "dicom": {
+     "z_mm": -181.6,
+     "slice_index": 116,
+     "row": 340.1,
+     "col": 111.1
+    },
+    "crop_center": {
+     "z": 168.40154081583023,
+     "y": 167.29816508293152,
+     "x": 65.11562359333038
+    }
+   },
+   {
+    "detection_score": 0.85,
+    "detection_level": "confident",
+    "malignancy_prob": 0.2861,
+    "malignancy_mc_std": 0.0181,
+    "est_diameter_mm": 8.3,
+    "voxel_1mm": {
+     "z": 206.4,
+     "y": 79.6,
+     "x": 87.2
+    },
+    "dicom": {
+     "z_mm": -183.62,
+     "slice_index": 115,
+     "row": 135.8,
+     "col": 148.9
+    },
+    "crop_center": {
+     "z": 166.3834987282753,
+     "y": 47.558104038238525,
+     "x": 87.23092341423035
+    }
+   },
+   {
+    "detection_score": 0.8226,
+    "detection_level": "confident",
+    "malignancy_prob": 0.8416,
+    "malignancy_mc_std": 0.0206,
+    "est_diameter_mm": 26.4,
+    "voxel_1mm": {
+     "z": 168.7,
+     "y": 224.7,
+     "x": 109.3
+    },
+    "dicom": {
+     "z_mm": -221.31,
+     "slice_index": 94,
+     "row": 383.5,
+     "col": 186.5
+    },
+    "crop_center": {
+     "z": 128.6931076645851,
+     "y": 192.72949141263962,
+     "x": 109.25298738479614
+    }
+   },
+   {
+    "detection_score": 0.8034,
+    "detection_level": "confident",
+    "malignancy_prob": 0.3573,
+    "malignancy_mc_std": 0.0159,
+    "est_diameter_mm": 10.3,
+    "voxel_1mm": {
+     "z": 186.7,
+     "y": 90.8,
+     "x": 74.2
+    },
+    "dicom": {
+     "z_mm": -203.28,
+     "slice_index": 104,
+     "row": 154.9,
+     "col": 126.6
+    },
+    "crop_center": {
+     "z": 146.7165563106537,
+     "y": 58.75279647111893,
+     "x": 74.19395586848259
+    }
+   },
+   {
+    "detection_score": 0.7983,
+    "detection_level": "confident",
+    "malignancy_prob": 0.5924,
+    "malignancy_mc_std": 0.0146,
+    "est_diameter_mm": 12.4,
+    "voxel_1mm": {
+     "z": 232.5,
+     "y": 118.4,
+     "x": 183.0
+    },
+    "dicom": {
+     "z_mm": -157.51,
+     "slice_index": 129,
+     "row": 202.0,
+     "col": 312.3
+    },
+    "crop_center": {
+     "z": 192.4933716058731,
+     "y": 86.37201911211014,
+     "x": 182.96924430131912
+    }
+   },
+   {
+    "detection_score": 0.7496,
+    "detection_level": "confident",
+    "malignancy_prob": 0.6807,
+    "malignancy_mc_std": 0.014,
+    "est_diameter_mm": 15.8,
+    "voxel_1mm": {
+     "z": 280.7,
+     "y": 199.2,
+     "x": 101.0
+    },
+    "dicom": {
+     "z_mm": -109.32,
+     "slice_index": 156,
+     "row": 340.0,
+     "col": 172.3
+    },
+    "crop_center": {
+     "z": 240.68478846549988,
+     "y": 167.19267904758453,
+     "x": 100.97223246097565
+    }
+   },
+   {
+    "detection_score": 0.7108,
+    "detection_level": "confident",
+    "malignancy_prob": 0.2723,
+    "malignancy_mc_std": 0.0168,
+    "est_diameter_mm": 6.9,
+    "voxel_1mm": {
+     "z": 188.5,
+     "y": 112.2,
+     "x": 49.1
+    },
+    "dicom": {
+     "z_mm": -201.49,
+     "slice_index": 105,
+     "row": 191.5,
+     "col": 83.7
+    },
+    "crop_center": {
+     "z": 148.5081273317337,
+     "y": 80.1779743283987,
+     "x": 49.06453490257263
+    }
+   },
+   {
+    "detection_score": 0.709,
+    "detection_level": "confident",
+    "malignancy_prob": 0.4425,
+    "malignancy_mc_std": 0.0225,
+    "est_diameter_mm": 12.0,
+    "voxel_1mm": {
+     "z": 252.8,
+     "y": 207.5,
+     "x": 89.2
+    },
+    "dicom": {
+     "z_mm": -137.24,
+     "slice_index": 140,
+     "row": 354.1,
+     "col": 152.3
+    },
+    "crop_center": {
+     "z": 212.75847828388214,
+     "y": 175.4836062192917,
+     "x": 89.2322289943695
+    }
+   },
+   {
+    "detection_score": 0.7004,
+    "detection_level": "confident",
+    "malignancy_prob": 0.4972,
+    "malignancy_mc_std": 0.0134,
+    "est_diameter_mm": 14.9,
+    "voxel_1mm": {
+     "z": 276.7,
+     "y": 216.6,
+     "x": 229.0
+    },
+    "dicom": {
+     "z_mm": -113.28,
+     "slice_index": 154,
+     "row": 369.6,
+     "col": 390.8
+    },
+    "crop_center": {
+     "z": 236.72126632928848,
+     "y": 184.57827770709991,
+     "x": 229.00773012638092
+    }
+   },
+   {
+    "detection_score": 0.6276,
+    "detection_level": "confident",
+    "malignancy_prob": 0.3623,
+    "malignancy_mc_std": 0.0154,
+    "est_diameter_mm": 13.5,
+    "voxel_1mm": {
+     "z": 163.2,
+     "y": 250.9,
+     "x": 207.4
+    },
+    "dicom": {
+     "z_mm": -226.75,
+     "slice_index": 91,
+     "row": 428.2,
+     "col": 354.0
+    },
+    "crop_center": {
+     "z": 123.24778985977173,
+     "y": 218.9019092321396,
+     "x": 207.438321352005
+    }
+   },
+   {
+    "detection_score": 0.597,
+    "detection_level": "confident",
+    "malignancy_prob": 0.2598,
+    "malignancy_mc_std": 0.0145,
+    "est_diameter_mm": 9.0,
+    "voxel_1mm": {
+     "z": 193.6,
+     "y": 226.4,
+     "x": 92.9
+    },
+    "dicom": {
+     "z_mm": -196.36,
+     "slice_index": 108,
+     "row": 386.5,
+     "col": 158.6
+    },
+    "crop_center": {
+     "z": 153.63577938079834,
+     "y": 194.43641605973244,
+     "x": 92.94779711961746
+    }
+   },
+   {
+    "detection_score": 0.3435,
+    "detection_level": "possible",
+    "malignancy_prob": 0.3688,
+    "malignancy_mc_std": 0.0144,
+    "est_diameter_mm": 6.1,
+    "voxel_1mm": {
+     "z": 218.8,
+     "y": 93.0,
+     "x": 160.8
+    },
+    "dicom": {
+     "z_mm": -171.16,
+     "slice_index": 122,
+     "row": 158.7,
+     "col": 274.4
+    },
+    "crop_center": {
+     "z": 178.83547258377075,
+     "y": 61.00550866127014,
+     "x": 160.77034544944763
+    }
+   },
+   {
+    "detection_score": 0.3188,
+    "detection_level": "possible",
+    "malignancy_prob": 0.3701,
+    "malignancy_mc_std": 0.011,
+    "est_diameter_mm": 8.8,
+    "voxel_1mm": {
+     "z": 259.5,
+     "y": 225.1,
+     "x": 232.9
+    },
+    "dicom": {
+     "z_mm": -130.47,
+     "slice_index": 144,
+     "row": 384.2,
+     "col": 397.5
+    },
+    "crop_center": {
+     "z": 219.5251828432083,
+     "y": 193.09838569164276,
+     "x": 232.93130147457123
+    }
+   },
+   {
+    "detection_score": 0.2555,
+    "detection_level": "possible",
+    "malignancy_prob": 0.3331,
+    "malignancy_mc_std": 0.0137,
+    "est_diameter_mm": 7.1,
+    "voxel_1mm": {
+     "z": 185.0,
+     "y": 76.9,
+     "x": 71.3
+    },
+    "dicom": {
+     "z_mm": -204.97,
+     "slice_index": 103,
+     "row": 131.2,
+     "col": 121.6
+    },
+    "crop_center": {
+     "z": 145.02740967273712,
+     "y": 44.854148626327515,
+     "x": 71.27226042747498
+    }
+   }
+  ],
+  "n_confident": 12,
+  "n_possible": 3,
+  "scan_max_malignancy_confident": 0.8416,
+  "timings_s": {
+   "load_resample": 1.94,
+   "mask": 4.25,
+   "detect": 49.14,
+   "classify": 84.54
+  }
+ },
+ "gt": [
+  {
+   "z": 184.8803780964798,
+   "y": 76.79561545176614,
+   "x": 70.7236474781496,
+   "diam_mm": 6.8359375,
+   "n_readers": 3,
+   "n_readers_large": 3,
+   "malignancy_scores": [
+    2,
+    1,
+    3
+   ],
+   "mal_mean": 2.0,
+   "is_small": false,
+   "hit": {
+    "dist": 0.6,
+    "level": "possible",
+    "det": 0.256,
+    "mal": 0.333
+   }
+  },
+  {
+   "z": 186.34842531394585,
+   "y": 90.86257803463731,
+   "x": 74.11846355027264,
+   "diam_mm": 10.7421875,
+   "n_readers": 3,
+   "n_readers_large": 3,
+   "malignancy_scores": [
+    2,
+    2,
+    3
+   ],
+   "mal_mean": 2.3333333333333335,
+   "is_small": false,
+   "hit": {
+    "dist": 0.4,
+    "level": "confident",
+    "det": 0.803,
+    "mal": 0.357
+   }
+  },
+  {
+   "z": 193.8014854719317,
+   "y": 226.37878284518158,
+   "x": 92.57528293469457,
+   "diam_mm": 8.349609375,
+   "n_readers": 4,
+   "n_readers_large": 4,
+   "malignancy_scores": [
+    5,
+    3,
+    3,
+    2
+   ],
+   "mal_mean": 3.25,
+   "is_small": false,
+   "hit": {
+    "dist": 0.4,
+    "level": "confident",
+    "det": 0.597,
+    "mal": 0.26
+   }
+  },
+  {
+   "z": 205.89416056463855,
+   "y": 239.68654429487228,
+   "x": 88.84873235239316,
+   "diam_mm": 19.921875,
+   "n_readers": 3,
+   "n_readers_large": 3,
+   "malignancy_scores": [
+    5,
+    5,
+    3
+   ],
+   "mal_mean": 4.333333333333333,
+   "is_small": false,
+   "hit": {
+    "dist": 2.2,
+    "level": "confident",
+    "det": 0.933,
+    "mal": 0.83
+   }
+  },
+  {
+   "z": 205.93208602150546,
+   "y": 79.95088485663082,
+   "x": 87.04931115591398,
+   "diam_mm": 9.765625,
+   "n_readers": 4,
+   "n_readers_large": 3,
+   "malignancy_scores": [
+    2,
+    2,
+    3
+   ],
+   "mal_mean": 2.3333333333333335,
+   "is_small": false,
+   "hit": {
+    "dist": 0.6,
+    "level": "confident",
+    "det": 0.85,
+    "mal": 0.286
+   }
+  },
+  {
+   "z": 189.0,
+   "y": 112.79296875,
+   "x": 48.779296875,
+   "diam_mm": 0.5859375,
+   "n_readers": 4,
+   "n_readers_large": 0,
+   "malignancy_scores": [],
+   "mal_mean": null,
+   "is_small": true,
+   "hit": {
+    "dist": 0.8,
+    "level": "confident",
+    "det": 0.711,
+    "mal": 0.272
+   }
+  },
+  {
+   "z": 207.0,
+   "y": 220.3125,
+   "x": 99.4140625,
+   "diam_mm": 0.5859375,
+   "n_readers": 3,
+   "n_readers_large": 0,
+   "malignancy_scores": [],
+   "mal_mean": null,
+   "is_small": true,
+   "hit": null
+  },
+  {
+   "z": 281.5875,
+   "y": 199.6981534090909,
+   "x": 101.0342684659091,
+   "diam_mm": 11.71875,
+   "n_readers": 2,
+   "n_readers_large": 1,
+   "malignancy_scores": [
+    3
+   ],
+   "mal_mean": 3.0,
+   "is_small": false,
+   "hit": {
+    "dist": 1.0,
+    "level": "confident",
+    "det": 0.75,
+    "mal": 0.681
+   }
+  },
+  {
+   "z": 232.75799121576284,
+   "y": 118.3603490009074,
+   "x": 182.45002868983713,
+   "diam_mm": 12.3046875,
+   "n_readers": 3,
+   "n_readers_large": 2,
+   "malignancy_scores": [
+    4,
+    3
+   ],
+   "mal_mean": 3.5,
+   "is_small": false,
+   "hit": {
+    "dist": 0.6,
+    "level": "confident",
+    "det": 0.798,
+    "mal": 0.592
+   }
+  },
+  {
+   "z": 169.35085714285714,
+   "y": 225.64732142857144,
+   "x": 109.71763392857142,
+   "diam_mm": 28.7109375,
+   "n_readers": 1,
+   "n_readers_large": 1,
+   "malignancy_scores": [
+    3
+   ],
+   "mal_mean": 3.0,
+   "is_small": false,
+   "hit": {
+    "dist": 1.2,
+    "level": "confident",
+    "det": 0.823,
+    "mal": 0.842
+   }
+  },
+  {
+   "z": 264.6,
+   "y": 166.40625,
+   "x": 216.2109375,
+   "diam_mm": 0.5859375,
+   "n_readers": 1,
+   "n_readers_large": 0,
+   "malignancy_scores": [],
+   "mal_mean": null,
+   "is_small": true,
+   "hit": null
+  }
+ ]
+}

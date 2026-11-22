@@ -1,0 +1,15 @@
+torch>=2.2
+numpy
+pandas
+scipy
+scikit-learn
+scikit-image
+SimpleITK
+pydicom
+pillow
+fastapi
+uvicorn
+python-multipart
+requests
+kaggle
+matplotlib

@@ -1,0 +1,193 @@
+[{"stream_name":"stdout","time":59.030164997,"data":"thresholds from detector VALIDATION patients: {'confident': 0.45035937428474426, 'possible': 0.2404177486896515}\n"}
+,{"stream_name":"stdout","time":63.889563306,"data":"classifier variants ['original']\n"}
+,{"stream_name":"stdout","time":65.371677763,"data":"test patients 122\n"}
+,{"stream_name":"stdout","time":100.250339651,"data":"0 LIDC-IDRI-0002 gt3 0 conf 0 poss 2 {'load_resample': 25.07, 'mask': 27.88, 'detect': 32.36, 'classify': 33.1} 91s\n"}
+,{"stream_name":"stdout","time":125.933546709,"data":"1 LIDC-IDRI-0003 gt3 3 conf 4 poss 4 {'load_resample': 14.47, 'mask': 18.42, 'detect': 20.25, 'classify': 22.5} 116s\n"}
+,{"stream_name":"stdout","time":157.560160289,"data":"2 LIDC-IDRI-0004 gt3 1 conf 4 poss 5 {'load_resample': 23.18, 'mask': 26.31, 'detect': 27.47, 'classify': 29.94} 148s\n"}
+,{"stream_name":"stdout","time":182.466567469,"data":"3 LIDC-IDRI-0007 gt3 1 conf 5 poss 6 {'load_resample': 14.32, 'mask': 17.88, 'detect': 19.37, 'classify': 22.55} 173s\n"}
+,{"stream_name":"stdout","time":216.261789434,"data":"4 LIDC-IDRI-0010 gt3 1 conf 5 poss 2 {'load_resample': 24.54, 'mask': 28.38, 'detect': 29.5, 'classify': 31.49} 207s\n"}
+,{"stream_name":"stdout","time":241.130170684,"data":"5 LIDC-IDRI-0012 gt3 9 conf 14 poss 4 {'load_resample': 11.51, 'mask': 14.44, 'detect': 15.61, 'classify': 20.22} 231s\n"}
+,{"stream_name":"stdout","time":261.877448228,"data":"6 LIDC-IDRI-0013 gt3 2 conf 6 poss 8 {'load_resample': 11.51, 'mask': 13.47, 'detect': 14.58, 'classify': 18.59} 252s\n"}
+,{"stream_name":"stdout","time":284.982235049,"data":"7 LIDC-IDRI-0015 gt3 1 conf 1 poss 1 {'load_resample': 18.39, 'mask': 20.34, 'detect': 21.34, 'classify': 21.86} 275s\n"}
+,{"stream_name":"stdout","time":313.594276375,"data":"8 LIDC-IDRI-0017 gt3 1 conf 1 poss 3 {'load_resample': 20.9, 'mask': 23.73, 'detect': 25.61, 'classify': 26.7} 304s\n"}
+,{"stream_name":"stdout","time":333.322526912,"data":"9 LIDC-IDRI-0018 gt3 4 conf 6 poss 1 {'load_resample': 11.82, 'mask': 14.35, 'detect': 15.51, 'classify': 17.31} 324s\n"}
+,{"stream_name":"stdout","time":366.501278794,"data":"10 LIDC-IDRI-0026 gt3 0 conf 6 poss 7 {'load_resample': 23.43, 'mask': 26.45, 'detect': 27.56, 'classify': 31.21} 357s\n"}
+,{"stream_name":"stdout","time":399.478838611,"data":"11 LIDC-IDRI-0036 gt3 1 conf 5 poss 2 {'load_resample': 24.67, 'mask': 27.64, 'detect': 28.79, 'classify': 30.78} 390s\n"}
+,{"stream_name":"stdout","time":421.259031163,"data":"12 LIDC-IDRI-0044 gt3 3 conf 6 poss 3 {'load_resample': 13.18, 'mask': 16.19, 'detect': 18.11, 'classify': 20.54} 412s\n"}
+,{"stream_name":"stdout","time":439.955508863,"data":"13 LIDC-IDRI-0047 gt3 1 conf 3 poss 3 {'load_resample': 12.15, 'mask': 15.31, 'detect': 16.68, 'classify': 18.29} 430s\n"}
+,{"stream_name":"stdout","time":458.499773457,"data":"14 LIDC-IDRI-0050 gt3 1 conf 2 poss 0 {'load_resample': 13.28, 'mask': 16.33, 'detect': 17.45, 'classify': 18.06} 449s\n"}
+,{"stream_name":"stdout","time":489.334218867,"data":"15 LIDC-IDRI-0052 gt3 2 conf 3 poss 1 {'load_resample': 23.34, 'mask': 26.47, 'detect': 28.95, 'classify': 30.03} 480s\n"}
+,{"stream_name":"stdout","time":522.796017835,"data":"16 LIDC-IDRI-0072 gt3 1 conf 2 poss 2 {'load_resample': 26.45, 'mask': 29.93, 'detect': 31.82, 'classify': 32.96} 513s\n"}
+,{"stream_name":"stdout","time":537.621527427,"data":"17 LIDC-IDRI-0074 gt3 1 conf 1 poss 1 {'load_resample': 9.98, 'mask': 12.26, 'detect': 13.79, 'classify': 14.35} 528s\n"}
+,{"stream_name":"stdout","time":552.064474043,"data":"18 LIDC-IDRI-0079 gt3 0 conf 1 poss 0 {'load_resample': 9.95, 'mask': 12.83, 'detect': 13.97, 'classify': 14.27} 542s\n"}
+,{"stream_name":"stdout","time":572.019802008,"data":"19 LIDC-IDRI-0081 gt3 2 conf 2 poss 0 {'load_resample': 12.51, 'mask': 16.44, 'detect': 18.53, 'classify': 19.12} 562s\n"}
+,{"stream_name":"stdout","time":599.258312495,"data":"20 LIDC-IDRI-0082 gt3 1 conf 2 poss 2 {'load_resample': 21.42, 'mask': 24.01, 'detect': 25.51, 'classify': 26.75} 590s\n"}
+,{"stream_name":"stdout","time":630.52086998,"data":"21 LIDC-IDRI-0086 gt3 0 conf 7 poss 7 {'load_resample': 21.64, 'mask': 24.99, 'detect': 26.94, 'classify': 30.81} 621s\n"}
+,{"stream_name":"stdout","time":671.897962615,"data":"22 LIDC-IDRI-0094 gt3 1 conf 4 poss 1 {'load_resample': 33.63, 'mask': 37.04, 'detect': 39.52, 'classify': 40.84} 662s\n"}
+,{"stream_name":"stdout","time":685.521702535,"data":"23 LIDC-IDRI-0098 gt3 0 conf 2 poss 1 {'load_resample': 9.49, 'mask': 11.5, 'detect': 12.54, 'classify': 13.5} 676s\n"}
+,{"stream_name":"stdout","time":706.176798194,"data":"24 LIDC-IDRI-0108 gt3 1 conf 2 poss 3 {'load_resample': 14.56, 'mask': 17.51, 'detect': 18.66, 'classify': 19.94} 696s\n"}
+,{"stream_name":"stdout","time":743.2962709,"data":"25 LIDC-IDRI-0130 gt3 0 conf 2 poss 1 {'load_resample': 31.68, 'mask': 34.41, 'detect': 35.97, 'classify': 36.92} 734s\n"}
+,{"stream_name":"stdout","time":770.064049062,"data":"26 LIDC-IDRI-0132 gt3 0 conf 4 poss 10 {'load_resample': 19.65, 'mask': 21.56, 'detect': 22.66, 'classify': 26.62} 760s\n"}
+,{"stream_name":"stdout","time":798.211769903,"data":"27 LIDC-IDRI-0136 gt3 0 conf 13 poss 7 {'load_resample': 15.0, 'mask': 20.29, 'detect': 22.33, 'classify': 27.91} 789s\n"}
+,{"stream_name":"stdout","time":817.650555237,"data":"28 LIDC-IDRI-0148 gt3 2 conf 2 poss 1 {'load_resample': 13.08, 'mask': 16.46, 'detect': 17.52, 'classify': 18.41} 808s\n"}
+,{"stream_name":"stdout","time":838.232243849,"data":"29 LIDC-IDRI-0152 gt3 1 conf 1 poss 0 {'load_resample': 14.27, 'mask': 17.8, 'detect': 19.8, 'classify': 20.07} 829s\n"}
+,{"stream_name":"stdout","time":857.772006319,"data":"30 LIDC-IDRI-0154 gt3 0 conf 4 poss 7 {'load_resample': 11.21, 'mask': 14.38, 'detect': 16.32, 'classify': 19.35} 848s\n"}
+,{"stream_name":"stdout","time":878.576883715,"data":"31 LIDC-IDRI-0157 gt3 0 conf 4 poss 3 {'load_resample': 12.83, 'mask': 16.49, 'detect': 18.42, 'classify': 20.33} 869s\n"}
+,{"stream_name":"stdout","time":910.818259988,"data":"32 LIDC-IDRI-0158 gt3 2 conf 5 poss 8 {'load_resample': 23.02, 'mask': 26.04, 'detect': 27.15, 'classify': 30.94} 901s\n"}
+,{"stream_name":"stdout","time":947.370617065,"data":"33 LIDC-IDRI-0164 gt3 9 conf 12 poss 4 {'load_resample': 24.06, 'mask': 27.59, 'detect': 28.67, 'classify': 33.28} 938s\n"}
+,{"stream_name":"stdout","time":963.88914585,"data":"34 LIDC-IDRI-0178 gt3 0 conf 1 poss 1 {'load_resample': 12.04, 'mask': 14.41, 'detect': 15.48, 'classify': 16.08} 954s\n"}
+,{"stream_name":"stdout","time":984.679433589,"data":"35 LIDC-IDRI-0191 gt3 1 conf 3 poss 3 {'load_resample': 12.8, 'mask': 16.94, 'detect': 18.51, 'classify': 20.31} 975s\n"}
+,{"stream_name":"stdout","time":1001.851947792,"data":"36 LIDC-IDRI-0198 gt3 0 conf 0 poss 4 {'load_resample': 12.1, 'mask': 14.37, 'detect': 15.45, 'classify': 16.68} 992s\n"}
+,{"stream_name":"stdout","time":1019.657343571,"data":"37 LIDC-IDRI-0200 gt3 1 conf 2 poss 2 {'load_resample': 11.33, 'mask': 14.46, 'detect': 15.97, 'classify': 17.08} 1010s\n"}
+,{"stream_name":"stdout","time":1035.842255738,"data":"38 LIDC-IDRI-0202 gt3 0 conf 2 poss 1 {'load_resample': 10.1, 'mask': 12.98, 'detect': 14.9, 'classify': 15.72} 1026s\n"}
+,{"stream_name":"stdout","time":1054.522349878,"data":"39 LIDC-IDRI-0204 gt3 1 conf 3 poss 2 {'load_resample': 12.4, 'mask': 15.05, 'detect': 16.19, 'classify': 17.64} 1045s\n"}
+,{"stream_name":"stdout","time":1088.93418116,"data":"40 LIDC-IDRI-0206 gt3 3 conf 3 poss 1 {'load_resample': 26.86, 'mask': 30.22, 'detect': 32.03, 'classify': 33.11} 1079s\n"}
+,{"stream_name":"stdout","time":1110.160178813,"data":"41 LIDC-IDRI-0217 gt3 3 conf 5 poss 1 {'load_resample': 12.63, 'mask': 15.98, 'detect': 18.43, 'classify': 20.14} 1100s\n"}
+,{"stream_name":"stdout","time":1138.246550782,"data":"42 LIDC-IDRI-0220 gt3 3 conf 3 poss 5 {'load_resample': 20.47, 'mask': 23.28, 'detect': 24.79, 'classify': 27.06} 1129s\n"}
+,{"stream_name":"stdout","time":1158.233665926,"data":"43 LIDC-IDRI-0225 gt3 0 conf 2 poss 6 {'load_resample': 12.23, 'mask': 15.78, 'detect': 17.71, 'classify': 19.79} 1149s\n"}
+,{"stream_name":"stdout","time":1177.394306084,"data":"44 LIDC-IDRI-0226 gt3 0 conf 1 poss 1 {'load_resample': 12.23, 'mask': 16.39, 'detect': 18.4, 'classify': 18.93} 1168s\n"}
+,{"stream_name":"stdout","time":1200.473969927,"data":"45 LIDC-IDRI-0235 gt3 1 conf 7 poss 8 {'load_resample': 13.22, 'mask': 16.15, 'detect': 17.72, 'classify': 22.04} 1191s\n"}
+,{"stream_name":"stdout","time":1221.632719249,"data":"46 LIDC-IDRI-0242 gt3 1 conf 2 poss 1 {'load_resample': 14.46, 'mask': 18.18, 'detect': 19.81, 'classify': 20.65} 1212s\n"}
+,{"stream_name":"stdout","time":1241.733538676,"data":"47 LIDC-IDRI-0246 gt3 1 conf 1 poss 2 {'load_resample': 13.2, 'mask': 16.79, 'detect': 18.74, 'classify': 19.6} 1232s\n"}
+,{"stream_name":"stdout","time":1257.315932582,"data":"48 LIDC-IDRI-0247 gt3 0 conf 0 poss 1 {'load_resample': 11.77, 'mask': 13.81, 'detect': 14.87, 'classify': 15.13} 1248s\n"}
+,{"stream_name":"stdout","time":1274.434050788,"data":"49 LIDC-IDRI-0255 gt3 2 conf 3 poss 0 {'load_resample': 12.18, 'mask': 14.6, 'detect': 15.66, 'classify': 16.46} 1265s\n"}
+,{"stream_name":"stdout","time":1291.589206205,"data":"50 LIDC-IDRI-0257 gt3 1 conf 1 poss 1 {'load_resample': 11.98, 'mask': 15.04, 'detect': 16.14, 'classify': 16.72} 1282s\n"}
+,{"stream_name":"stdout","time":1310.856447726,"data":"51 LIDC-IDRI-0259 gt3 1 conf 1 poss 0 {'load_resample': 13.49, 'mask': 16.81, 'detect': 18.41, 'classify': 18.73} 1301s\n"}
+,{"stream_name":"stdout","time":1328.228955583,"data":"52 LIDC-IDRI-0265 gt3 1 conf 0 poss 1 {'load_resample': 12.25, 'mask': 15.47, 'detect': 16.6, 'classify': 16.91} 1319s\n"}
+,{"stream_name":"stdout","time":1354.112483616,"data":"53 LIDC-IDRI-0266 gt3 0 conf 2 poss 4 {'load_resample': 20.39, 'mask': 22.53, 'detect': 23.62, 'classify': 25.44} 1344s\n"}
+,{"stream_name":"stdout","time":1369.30702881,"data":"54 LIDC-IDRI-0277 gt3 1 conf 1 poss 1 {'load_resample': 10.65, 'mask': 13.13, 'detect': 14.24, 'classify': 14.79} 1360s\n"}
+,{"stream_name":"stdout","time":1395.052663482,"data":"55 LIDC-IDRI-0280 gt3 0 conf 1 poss 1 {'load_resample': 20.73, 'mask': 23.2, 'detect': 24.72, 'classify': 25.3} 1385s\n"}
+,{"stream_name":"stdout","time":1410.694786429,"data":"56 LIDC-IDRI-0281 gt3 1 conf 2 poss 0 {'load_resample': 10.93, 'mask': 13.5, 'detect': 14.58, 'classify': 15.21} 1401s\n"}
+,{"stream_name":"stdout","time":1430.31171986,"data":"57 LIDC-IDRI-0290 gt3 0 conf 4 poss 8 {'load_resample': 11.69, 'mask': 14.21, 'detect': 15.26, 'classify': 18.66} 1421s\n"}
+,{"stream_name":"stdout","time":1447.041999392,"data":"58 LIDC-IDRI-0296 gt3 1 conf 1 poss 1 {'load_resample': 11.02, 'mask': 14.17, 'detect': 15.75, 'classify': 16.29} 1437s\n"}
+,{"stream_name":"stdout","time":1488.404318205,"data":"59 LIDC-IDRI-0300 gt3 4 conf 4 poss 0 {'load_resample': 34.4, 'mask': 37.27, 'detect': 38.86, 'classify': 40.0} 1479s\n"}
+,{"stream_name":"stdout","time":1504.294315521,"data":"60 LIDC-IDRI-0303 gt3 0 conf 1 poss 0 {'load_resample': 11.12, 'mask': 14.3, 'detect': 15.44, 'classify': 15.73} 1495s\n"}
+,{"stream_name":"stdout","time":1533.44469378,"data":"61 LIDC-IDRI-0305 gt3 0 conf 6 poss 5 {'load_resample': 22.33, 'mask': 24.53, 'detect': 26.0, 'classify': 29.01} 1524s\n"}
+,{"stream_name":"stdout","time":1560.452779322,"data":"62 LIDC-IDRI-0307 gt3 0 conf 0 poss 2 {'load_resample': 22.94, 'mask': 25.17, 'detect': 26.28, 'classify': 26.85} 1551s\n"}
+,{"stream_name":"stdout","time":1585.882096495,"data":"63 LIDC-IDRI-0316 gt3 0 conf 3 poss 2 {'load_resample': 18.24, 'mask': 21.4, 'detect': 23.85, 'classify': 25.2} 1576s\n"}
+,{"stream_name":"stdout","time":1602.565474751,"data":"64 LIDC-IDRI-0322 gt3 0 conf 1 poss 1 {'load_resample': 11.44, 'mask': 14.31, 'detect': 15.88, 'classify': 16.47} 1593s\n"}
+,{"stream_name":"stdout","time":1632.206657173,"data":"65 LIDC-IDRI-0324 gt3 0 conf 5 poss 4 {'load_resample': 20.36, 'mask': 23.82, 'detect': 26.32, 'classify': 28.83} 1623s\n"}
+,{"stream_name":"stdout","time":1678.12133518,"data":"66 LIDC-IDRI-0328 gt3 0 conf 0 poss 2 {'load_resample': 41.22, 'mask': 43.58, 'detect': 44.72, 'classify': 45.25} 1668s\n"}
+,{"stream_name":"stdout","time":1689.718833382,"data":"67 LIDC-IDRI-0330 gt3 0 conf 0 poss 0 {'load_resample': 9.14, 'mask': 10.49, 'detect': 11.49, 'classify': 11.49} 1680s\n"}
+,{"stream_name":"stdout","time":1713.18440023,"data":"68 LIDC-IDRI-0331 gt3 0 conf 0 poss 1 {'load_resample': 20.43, 'mask': 22.04, 'detect': 23.1, 'classify': 23.35} 1703s\n"}
+,{"stream_name":"stdout","time":1743.813999279,"data":"69 LIDC-IDRI-0338 gt3 1 conf 2 poss 4 {'load_resample': 24.51, 'mask': 27.08, 'detect': 28.42, 'classify': 30.17} 1734s\n"}
+,{"stream_name":"stdout","time":1772.494343122,"data":"70 LIDC-IDRI-0339 gt3 1 conf 2 poss 1 {'load_resample': 23.53, 'mask': 25.71, 'detect': 27.04, 'classify': 27.93} 1763s\n"}
+,{"stream_name":"stdout","time":1813.644249415,"data":"71 LIDC-IDRI-0340 gt3 2 conf 1 poss 1 {'load_resample': 35.18, 'mask': 37.61, 'detect': 39.47, 'classify': 40.07} 1804s\n"}
+,{"stream_name":"stdout","time":1835.496971445,"data":"72 LIDC-IDRI-0347 gt3 3 conf 4 poss 9 {'load_resample': 12.04, 'mask': 15.32, 'detect': 17.14, 'classify': 20.61} 1826s\n"}
+,{"stream_name":"stdout","time":1849.57384556,"data":"73 LIDC-IDRI-0351 gt3 1 conf 3 poss 3 {'load_resample': 9.12, 'mask': 10.76, 'detect': 11.84, 'classify': 13.42} 1840s\n"}
+,{"stream_name":"stdout","time":1879.840221189,"data":"74 LIDC-IDRI-0352 gt3 1 conf 3 poss 4 {'load_resample': 23.77, 'mask': 26.06, 'detect': 27.54, 'classify': 29.53} 1870s\n"}
+,{"stream_name":"stdout","time":1908.659898221,"data":"75 LIDC-IDRI-0353 gt3 3 conf 3 poss 1 {'load_resample': 22.71, 'mask': 25.51, 'detect': 26.73, 'classify': 27.81} 1899s\n"}
+,{"stream_name":"stdout","time":1949.405338819,"data":"76 LIDC-IDRI-0358 gt3 2 conf 9 poss 6 {'load_resample': 30.22, 'mask': 32.56, 'detect': 33.71, 'classify': 38.16} 1940s\n"}
+,{"stream_name":"stdout","time":1980.999667035,"data":"77 LIDC-IDRI-0360 gt3 3 conf 2 poss 4 {'load_resample': 23.79, 'mask': 27.37, 'detect': 28.49, 'classify': 30.23} 1971s\n"}
+,{"stream_name":"stdout","time":2010.228732152,"data":"78 LIDC-IDRI-0363 gt3 0 conf 2 poss 1 {'load_resample': 23.35, 'mask': 26.28, 'detect': 28.2, 'classify': 29.03} 2001s\n"}
+,{"stream_name":"stdout","time":2029.186128493,"data":"79 LIDC-IDRI-0365 gt3 1 conf 2 poss 1 {'load_resample': 14.64, 'mask': 16.58, 'detect': 17.64, 'classify': 18.52} 2019s\n"}
+,{"stream_name":"stdout","time":2047.546452824,"data":"80 LIDC-IDRI-0368 gt3 5 conf 6 poss 2 {'load_resample': 10.06, 'mask': 12.84, 'detect': 14.32, 'classify': 16.56} 2038s\n"}
+,{"stream_name":"stdout","time":2076.739260974,"data":"81 LIDC-IDRI-0372 gt3 0 conf 3 poss 2 {'load_resample': 23.63, 'mask': 26.48, 'detect': 27.64, 'classify': 29.02} 2067s\n"}
+,{"stream_name":"stdout","time":2130.008614727,"data":"82 LIDC-IDRI-0373 gt3 1 conf 3 poss 2 {'load_resample': 46.93, 'mask': 49.55, 'detect': 51.5, 'classify': 52.86} 2120s\n"}
+,{"stream_name":"stdout","time":2178.698083026,"data":"83 LIDC-IDRI-0384 gt3 0 conf 1 poss 4 {'load_resample': 43.03, 'mask': 45.28, 'detect': 46.36, 'classify': 47.77} 2169s\n"}
+,{"stream_name":"stdout","time":2206.536842126,"data":"84 LIDC-IDRI-0393 gt3 0 conf 1 poss 0 {'load_resample': 22.86, 'mask': 25.58, 'detect': 27.12, 'classify': 27.37} 2197s\n"}
+,{"stream_name":"stdout","time":2240.408398289,"data":"85 LIDC-IDRI-0398 gt3 4 conf 6 poss 8 {'load_resample': 22.3, 'mask': 24.71, 'detect': 26.16, 'classify': 30.04} 2231s\n"}
+,{"stream_name":"stdout","time":2266.381857103,"data":"86 LIDC-IDRI-0399 gt3 1 conf 2 poss 1 {'load_resample': 21.25, 'mask': 23.42, 'detect': 24.46, 'classify': 25.31} 2257s\n"}
+,{"stream_name":"stdout","time":2296.346849649,"data":"87 LIDC-IDRI-0400 gt3 3 conf 7 poss 4 {'load_resample': 20.86, 'mask': 24.36, 'detect': 25.87, 'classify': 28.73} 2287s\n"}
+,{"stream_name":"stdout","time":2315.491573498,"data":"88 LIDC-IDRI-0401 gt3 0 conf 2 poss 1 {'load_resample': 12.7, 'mask': 16.14, 'detect': 18.11, 'classify': 18.94} 2306s\n"}
+,{"stream_name":"stdout","time":2343.840301964,"data":"89 LIDC-IDRI-0404 gt3 5 conf 3 poss 0 {'load_resample': 20.51, 'mask': 23.1, 'detect': 25.14, 'classify': 26.04} 2334s\n"}
+,{"stream_name":"stdout","time":2368.208834225,"data":"90 LIDC-IDRI-0407 gt3 3 conf 6 poss 4 {'load_resample': 16.9, 'mask': 19.34, 'detect': 20.46, 'classify': 23.12} 2359s\n"}
+,{"stream_name":"stdout","time":2399.338988899,"data":"91 LIDC-IDRI-0412 gt3 1 conf 3 poss 5 {'load_resample': 24.85, 'mask': 26.75, 'detect': 27.81, 'classify': 30.13} 2390s\n"}
+,{"stream_name":"stdout","time":2423.640722959,"data":"92 LIDC-IDRI-0413 gt3 2 conf 3 poss 8 {'load_resample': 16.66, 'mask': 19.32, 'detect': 20.44, 'classify': 23.38} 2414s\n"}
+,{"stream_name":"stdout","time":2439.829395983,"data":"93 LIDC-IDRI-0414 gt3 0 conf 1 poss 2 {'load_resample': 11.3, 'mask': 13.79, 'detect': 14.86, 'classify': 15.75} 2430s\n"}
+,{"stream_name":"stdout","time":2462.883703039,"data":"94 LIDC-IDRI-0415 gt3 0 conf 7 poss 2 {'load_resample': 17.69, 'mask': 19.24, 'detect': 20.22, 'classify': 22.95} 2453s\n"}
+,{"stream_name":"stdout","time":2485.957288042,"data":"95 LIDC-IDRI-0416 gt3 2 conf 2 poss 3 {'load_resample': 17.69, 'mask': 19.68, 'detect': 21.05, 'classify': 22.39} 2476s\n"}
+,{"stream_name":"stdout","time":2502.289384991,"data":"96 LIDC-IDRI-0421 gt3 2 conf 1 poss 0 {'load_resample': 10.56, 'mask': 13.89, 'detect': 15.32, 'classify': 15.6} 2493s\n"}
+,{"stream_name":"stdout","time":2530.266899779,"data":"97 LIDC-IDRI-0422 gt3 0 conf 2 poss 5 {'load_resample': 22.01, 'mask': 24.64, 'detect': 25.77, 'classify': 27.81} 2521s\n"}
+,{"stream_name":"stdout","time":2546.106741842,"data":"98 LIDC-IDRI-0435 gt3 0 conf 4 poss 8 {'load_resample': 9.15, 'mask': 10.71, 'detect': 12.19, 'classify': 15.7} 2536s\n"}
+,{"stream_name":"stdout","time":2562.53266112,"data":"99 LIDC-IDRI-0436 gt3 0 conf 4 poss 2 {'load_resample': 10.32, 'mask': 12.97, 'detect': 14.51, 'classify': 16.22} 2553s\n"}
+,{"stream_name":"stdout","time":2579.377160828,"data":"100 LIDC-IDRI-0439 gt3 1 conf 2 poss 0 {'load_resample': 10.65, 'mask': 13.64, 'detect': 15.57, 'classify': 16.1} 2570s\n"}
+,{"stream_name":"stdout","time":2599.650352607,"data":"101 LIDC-IDRI-0451 gt3 1 conf 1 poss 0 {'load_resample': 15.78, 'mask': 18.46, 'detect': 19.6, 'classify': 19.86} 2590s\n"}
+,{"stream_name":"stdout","time":2626.933912317,"data":"102 LIDC-IDRI-0461 gt3 0 conf 7 poss 7 {'load_resample': 20.6, 'mask': 22.19, 'detect': 23.24, 'classify': 27.17} 2617s\n"}
+,{"stream_name":"stdout","time":2683.13313018,"data":"103 LIDC-IDRI-0462 gt3 2 conf 3 poss 4 {'load_resample': 47.93, 'mask': 50.93, 'detect': 53.34, 'classify': 55.21} 2673s\n"}
+,{"stream_name":"stdout","time":2701.226520378,"data":"104 LIDC-IDRI-0465 gt3 0 conf 1 poss 0 {'load_resample': 12.69, 'mask': 15.77, 'detect': 17.63, 'classify': 17.92} 2692s\n"}
+,{"stream_name":"stdout","time":2748.829666176,"data":"105 LIDC-IDRI-0469 gt3 2 conf 2 poss 6 {'load_resample': 40.89, 'mask': 42.76, 'detect': 43.87, 'classify': 46.08} 2739s\n"}
+,{"stream_name":"stdout","time":2780.066674734,"data":"106 LIDC-IDRI-0476 gt3 6 conf 7 poss 4 {'load_resample': 22.25, 'mask': 25.08, 'detect': 26.25, 'classify': 29.39} 2770s\n"}
+,{"stream_name":"stdout","time":2803.204857792,"data":"107 LIDC-IDRI-0484 gt3 1 conf 2 poss 2 {'load_resample': 16.93, 'mask': 19.69, 'detect': 21.23, 'classify': 22.37} 2794s\n"}
+,{"stream_name":"stdout","time":2841.863093517,"data":"108 LIDC-IDRI-0487 gt3 2 conf 1 poss 3 {'load_resample': 32.93, 'mask': 33.99, 'detect': 35.06, 'classify': 36.11} 2832s\n"}
+,{"stream_name":"stdout","time":2867.020683034,"data":"109 LIDC-IDRI-0497 gt3 0 conf 1 poss 0 {'load_resample': 21.31, 'mask': 23.66, 'detect': 24.75, 'classify': 25.03} 2857s\n"}
+,{"stream_name":"stdout","time":2886.293745387,"data":"110 LIDC-IDRI-0523 gt3 0 conf 5 poss 4 {'load_resample': 14.27, 'mask': 15.89, 'detect': 16.62, 'classify': 19.18} 2877s\n"}
+,{"stream_name":"stdout","time":2945.368594111,"data":"111 LIDC-IDRI-0529 gt3 1 conf 6 poss 4 {'load_resample': 50.17, 'mask': 53.22, 'detect': 54.67, 'classify': 57.61} 2936s\n"}
+,{"stream_name":"stdout","time":2975.52790985,"data":"112 LIDC-IDRI-0535 gt3 2 conf 3 poss 4 {'load_resample': 22.81, 'mask': 24.95, 'detect': 26.05, 'classify': 28.17} 2966s\n"}
+,{"stream_name":"stdout","time":2989.108688231,"data":"113 LIDC-IDRI-0544 gt3 0 conf 1 poss 0 {'load_resample': 10.37, 'mask': 12.14, 'detect': 13.22, 'classify': 13.45} 2979s\n"}
+,{"stream_name":"stdout","time":3019.46841966,"data":"114 LIDC-IDRI-0554 gt3 0 conf 1 poss 1 {'load_resample': 26.16, 'mask': 27.94, 'detect': 29.4, 'classify': 29.94} 3010s\n"}
+,{"stream_name":"stdout","time":3045.746609696,"data":"115 LIDC-IDRI-0555 gt3 1 conf 1 poss 2 {'load_resample': 21.83, 'mask': 24.0, 'detect': 25.09, 'classify': 25.91} 3036s\n"}
+,{"stream_name":"stdout","time":3060.144562807,"data":"116 LIDC-IDRI-0560 gt3 0 conf 0 poss 0 {'load_resample': 10.73, 'mask': 12.92, 'detect': 13.99, 'classify': 13.99} 3050s\n"}
+,{"stream_name":"stdout","time":3074.923508131,"data":"117 LIDC-IDRI-0570 gt3 0 conf 0 poss 3 {'load_resample': 10.67, 'mask': 12.53, 'detect': 13.61, 'classify': 14.4} 3065s\n"}
+,{"stream_name":"stdout","time":3115.932581194,"data":"118 LIDC-IDRI-0572 gt3 1 conf 0 poss 0 {'load_resample': 37.56, 'mask': 39.56, 'detect': 40.62, 'classify': 40.62} 3106s\n"}
+,{"stream_name":"stdout","time":3127.674788904,"data":"119 LIDC-IDRI-0595 gt3 1 conf 1 poss 0 {'load_resample': 8.28, 'mask': 10.01, 'detect': 11.04, 'classify': 11.34} 3118s\n"}
+,{"stream_name":"stdout","time":3146.587452138,"data":"120 LIDC-IDRI-0597 gt3 1 conf 1 poss 2 {'load_resample': 10.99, 'mask': 15.67, 'detect': 17.61, 'classify': 18.42} 3137s\n"}
+,{"stream_name":"stdout","time":3168.198877426,"data":"121 LIDC-IDRI-0598 gt3 1 conf 3 poss 3 {'load_resample': 15.29, 'mask': 17.63, 'detect': 19.54, 'classify': 21.22} 3159s\n"}
+,{"stream_name":"stdout","time":3168.239351151,"data":"{\n"}
+,{"stream_name":"stdout","time":3168.239393708,"data":" \"n_test_patients\": 122,\n"}
+,{"stream_name":"stdout","time":3168.239401217,"data":" \"n_errors\": 0,\n"}
+,{"stream_name":"stdout","time":3168.239407571,"data":" \"thresholds\": {\n"}
+,{"stream_name":"stdout","time":3168.239413704,"data":"  \"confident\": 0.45035937428474426,\n"}
+,{"stream_name":"stdout","time":3168.239419494,"data":"  \"possible\": 0.2404177486896515\n"}
+,{"stream_name":"stdout","time":3168.23942504,"data":" },\n"}
+,{"stream_name":"stdout","time":3168.239430027,"data":" \"confident(\u003c=1FP/scan on val)\": {\n"}
+,{"stream_name":"stdout","time":3168.239435847,"data":"  \"found\": 136,\n"}
+,{"stream_name":"stdout","time":3168.239440941,"data":"  \"total_gt\": 149,\n"}
+,{"stream_name":"stdout","time":3168.239445939,"data":"  \"sens\": 0.912751677852349,\n"}
+,{"stream_name":"stdout","time":3168.239451122,"data":"  \"fp_total\": 136,\n"}
+,{"stream_name":"stdout","time":3168.239491711,"data":"  \"fp_per_scan\": 1.1147540983606556,\n"}
+,{"stream_name":"stdout","time":3168.239499251,"data":"  \"n_scans\": 122\n"}
+,{"stream_name":"stdout","time":3168.239503321,"data":" },\n"}
+,{"stream_name":"stdout","time":3168.239507141,"data":" \"possible(\u003c=4FP/scan on val)\": {\n"}
+,{"stream_name":"stdout","time":3168.239511311,"data":"  \"found\": 143,\n"}
+,{"stream_name":"stdout","time":3168.239515136,"data":"  \"total_gt\": 149,\n"}
+,{"stream_name":"stdout","time":3168.239519011,"data":"  \"sens\": 0.959731543624161,\n"}
+,{"stream_name":"stdout","time":3168.239522968,"data":"  \"fp_total\": 386,\n"}
+,{"stream_name":"stdout","time":3168.239526831,"data":"  \"fp_per_scan\": 3.1639344262295084,\n"}
+,{"stream_name":"stdout","time":3168.239530822,"data":"  \"n_scans\": 122\n"}
+,{"stream_name":"stdout","time":3168.239534833,"data":" },\n"}
+,{"stream_name":"stdout","time":3168.239544497,"data":" \"froc_from_raw_dicom\": {\n"}
+,{"stream_name":"stdout","time":3168.239547948,"data":"  \"sens\": {\n"}
+,{"stream_name":"stdout","time":3168.239550612,"data":"   \"0.125\": 0.38926174496644295,\n"}
+,{"stream_name":"stdout","time":3168.239553425,"data":"   \"0.25\": 0.6711409395973155,\n"}
+,{"stream_name":"stdout","time":3168.239557317,"data":"   \"0.5\": 0.8389261744966443,\n"}
+,{"stream_name":"stdout","time":3168.239573577,"data":"   \"1\": 0.8993288590604027,\n"}
+,{"stream_name":"stdout","time":3168.239578322,"data":"   \"2\": 0.9463087248322147,\n"}
+,{"stream_name":"stdout","time":3168.239583682,"data":"   \"4\": 0.959731543624161,\n"}
+,{"stream_name":"stdout","time":3168.239588388,"data":"   \"8\": 0.959731543624161\n"}
+,{"stream_name":"stdout","time":3168.239592873,"data":"  },\n"}
+,{"stream_name":"stdout","time":3168.239596637,"data":"  \"thr\": {\n"}
+,{"stream_name":"stdout","time":3168.239600436,"data":"   \"0.125\": 0.8475,\n"}
+,{"stream_name":"stdout","time":3168.239604365,"data":"   \"0.25\": 0.7432,\n"}
+,{"stream_name":"stdout","time":3168.239608149,"data":"   \"0.5\": 0.6252,\n"}
+,{"stream_name":"stdout","time":3168.239612112,"data":"   \"1\": 0.4776,\n"}
+,{"stream_name":"stdout","time":3168.239615995,"data":"   \"2\": 0.3238,\n"}
+,{"stream_name":"stdout","time":3168.239619818,"data":"   \"4\": 0.2404,\n"}
+,{"stream_name":"stdout","time":3168.239623612,"data":"   \"8\": 0.2404\n"}
+,{"stream_name":"stdout","time":3168.239627513,"data":"  },\n"}
+,{"stream_name":"stdout","time":3168.239631362,"data":"  \"cpm\": 0.8092042186001918,\n"}
+,{"stream_name":"stdout","time":3168.239635308,"data":"  \"total_gt\": 149,\n"}
+,{"stream_name":"stdout","time":3168.23963916,"data":"  \"n_scans\": 122,\n"}
+,{"stream_name":"stdout","time":3168.23964301,"data":"  \"max_sens\": 0.959731543624161\n"}
+,{"stream_name":"stdout","time":3168.239647085,"data":" },\n"}
+,{"stream_name":"stdout","time":3168.239654491,"data":" \"tp_malignancy_auc_original\": 0.9799107142857142,\n"}
+,{"stream_name":"stdout","time":3168.239658201,"data":" \"n_tp_clear\": 134,\n"}
+,{"stream_name":"stdout","time":3168.239671149,"data":" \"n_tp_clear_malignant\": 64,\n"}
+,{"stream_name":"stdout","time":3168.239675786,"data":" \"FP_candidates_pred_malignant_frac_original\": 0.19430051813471502,\n"}
+,{"stream_name":"stdout","time":3168.239680611,"data":" \"FP_candidates_mean_p_original\": 0.3928458549222798,\n"}
+,{"stream_name":"stdout","time":3168.239685429,"data":" \"patient_level_n\": 91,\n"}
+,{"stream_name":"stdout","time":3168.239689796,"data":" \"patient_level_n_malignant\": 48,\n"}
+,{"stream_name":"stdout","time":3168.239693776,"data":" \"patient_auc_pipeline_original\": 0.8047480620155039,\n"}
+,{"stream_name":"stdout","time":3168.239702937,"data":" \"patient_auc_with_xml_locations_original\": 0.9985465116279071,\n"}
+,{"stream_name":"stdout","time":3168.239707096,"data":" \"patient_sens_at_0.5_original\": 0.875,\n"}
+,{"stream_name":"stdout","time":3168.239711077,"data":" \"patient_spec_at_0.5_original\": 0.627906976744186,\n"}
+,{"stream_name":"stdout","time":3168.239715026,"data":" \"n_missed_gt3_at_possible\": 6,\n"}
+,{"stream_name":"stdout","time":3168.239718991,"data":" \"mean_seconds_total_per_scan\": 24.56434426229508\n"}
+,{"stream_name":"stdout","time":3168.239723051,"data":"}\n"}
+,{"stream_name":"stderr","time":3174.080558453,"data":"/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":3174.080583564,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":3174.321361074,"data":"/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":3174.321399711,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":3175.080795084,"data":"[NbConvertApp] Converting notebook __script__.ipynb to html\n"}
+,{"stream_name":"stderr","time":3176.210500637,"data":"[NbConvertApp] Writing 545336 bytes to __results__.html\n"}
+]

@@ -1,0 +1,15 @@
+.venv/
+venv/
+node_modules/
+dist/
+__pycache__/
+*.pyc
+*.kaggle-partial
+.env
+kaggle.json
+# patient imaging must never be committed
+*.dcm
+*.npz
+*.npy
+data/
+Test_dataset/

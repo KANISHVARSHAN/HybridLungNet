@@ -1,0 +1,2 @@
+{"id":"messi2011/hln-inventory","title":"hln-inventory","code_file":"inventory.py","language":"python","kernel_type":"script","is_private":true,"enable_gpu":false,"enable_internet":true,
+"dataset_sources":["washingtongold/lidcidri30","justinkirby/the-cancer-imaging-archive-lidcidri","kanishvarshan/a-raw-data-of-ct-scan"],"competition_sources":[],"kernel_sources":[]}

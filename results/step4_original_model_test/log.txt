@@ -1,0 +1,8 @@
+{'n_train_patients': 306, 'n_val_patients': 77, 'n_val_nodules': 239, 'n_val_malignant': 48, 'n_val_ambiguous': 127, 'expected_from_notebook': '239 nodules, 48 malignant'}
+A_notebook_valstats {"auc": 0.9555519197207678, "auc_ci95": [0.9218309855132725, 0.9821596046669767], "ap": 0.834872915889737, "ece": 0.2356385978944132}
+B_trainstats {"auc": 0.956206369982548, "auc_ci95": [0.9209537289531786, 0.9813703823953824], "ap": 0.8373507582102224, "ece": 0.23563922723466882}
+D {"auc_ui_aux_eval_mode": 0.9474803664921466, "auc_full_ui_path": 0.8086823734729495, "at_0_5_full_ui": {"thr": 0.5, "acc": 0.8242677824267782, "sens": 0.7291666666666666, "spec": 0.8481675392670157, "ppv": 0.546875, "tp": 35, "fp": 29, "fn": 13, "tn": 162}, "frac_pred_malignant": 0.26778242677824265}
+E {"auc_of_mc_mean": 0.956369982547993, "mean_std": 0.016791557893157005, "max_std": 0.039504628628492355, "auroc_std_predicts_error": 0.6285509325681492, "auroc_entropy_predicts_error": 0.7760401721664275, "n_errors": 34}
+G {0: 0.956206369982548, 2: 0.9313917975567191, 4: 0.8220986038394416, 6: 0.7260034904013963, 8: 0.7156413612565445}
+H {'max_epoch_auc': 0.9555519197207678, 'epoch_of_max': 23, 'mean_last10': 0.9153250436300174, 'final_epoch': 0.9237565445026178} {'mean_of_max': 0.9296896516570723, 'mean_of_last10': 0.8810082989510353}
+saved
