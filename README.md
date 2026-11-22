@@ -73,3 +73,6 @@ docs/                          report and manuals
 * Download the scans from TCIA to reproduce the results.
 * The patient-level diagnoses in `results/test_dataset_check` come from TCIA's `tcia-diagnosis-data-2012-04-20.xls`.
 * In this repo, code paths that the docs give as `C:\mini-project\v2\...` live in `source/`.
+
+## License
+Code and model weights: MIT License (see `LICENSE`). The LIDC-IDRI data used for training is CC BY 3.0 (TCIA) and is not included.
